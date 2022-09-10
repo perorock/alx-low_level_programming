@@ -1,37 +1,30 @@
 #include <stdio.h>
-
 /**
- * main - combination of two digits
+ * main - assign random number
  *
- * Return: always o
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int val1, val2;
+	int i, j;
 
-	while (val1 <= 99)
+	for (i = 0; i < 100; i++)
 	{
-		val2 = val1;
-		while (val2 <= 99)
+		for (j = 0; j < 100; j++)
 		{
-			if (val2 != val1)
+			if (i < j)
 			{
-				putchar((val1 / 10) + 48);
-				putchar((val1 % 10) + 48);
+				putchar((i / 10) + 48);
+				putchar((i % 10) + 48);
 				putchar(' ');
-				putchar((val2 / 10) + 48);
-				putchar((val2 % 10) + 48);
-				if (val1 != 98 || val2 != 98)
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
+				if (i != 98 || j != 99)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
-			++val2;
 		}
-		++val1;
 	}
-	putchar('\n');
-	return (0);
 }
-
