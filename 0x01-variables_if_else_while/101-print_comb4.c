@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (val2 = 49; val2 < 58; val2++)
 		{
-			for (val3 = 50; val3 < 58; val3)
+			for (val3 = 50; val3 < 58; val3++)
 			{
 				if (val3 > val2 && val2 > val1)
 				{
