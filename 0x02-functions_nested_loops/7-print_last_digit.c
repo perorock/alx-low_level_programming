@@ -12,4 +12,4 @@ int print_last_digit(int t)
 		last_digit *= -1;
 	_putchar(last_digit + '0');
 	return (last_digit);
-i}
+}
