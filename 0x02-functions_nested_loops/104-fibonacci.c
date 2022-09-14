@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main to print the first 98 fibo number
- * Description: Fibonacci series
  *
+ * Description: Fibonacci series
  * Return: always 0
  */
 int main(void)
