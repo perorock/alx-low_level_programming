@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print abc in reverse order
+ * print_alphabet - print abc in reverse order
  *
  * Return: return 0 if successful
  */
