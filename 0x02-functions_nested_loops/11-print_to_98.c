@@ -4,7 +4,7 @@
  * @t: counter
  * Return: 0
  */
-void print_to_98(int t);
+void print_to_98(int t)
 {
 	if (t >= 98)
 	{
