@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -10,8 +11,7 @@ int main(void)
 
 	printf("Infinite loop incoming :(\n");
 	i = 0;
-
-	/*
+i	/*
 	 * while (i < 10)
 	 * {
 	 * Infinite loop - No increase of variable
