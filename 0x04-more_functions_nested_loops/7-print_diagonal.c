@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 /**
  * print_diagnonal - Draws a diagonal line using the \ chacter
  * @n: The number of \ chacrter to be printed
@@ -13,12 +13,12 @@ void print_diagonal(int n)
 		for (len = 0; len < n; len++)
 		{
 			for (space = 0; space < len; space++)
-				_putchar(' ');
-			_putchar('\\');
+				putchar(' ');
+			putchar('\\');
 			if (len == n - 1)
 				continue;
-			_putchar('\n');
+			putchar('\n');
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
