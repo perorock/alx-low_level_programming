@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_diagnonal - Draws a diagonal line using the \ chacter
  * @n: The number of \ chacrter to be printed
