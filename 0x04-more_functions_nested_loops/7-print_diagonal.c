@@ -1,7 +1,6 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * print_diagnonal - Draws a diagonal line using the \ chacter
+ * print_diagonal - Draws a diagonal line using the \ chacter
  * @n: The number of \ chacrter to be printed
  */
 void print_diagonal(int n)
