@@ -2,22 +2,27 @@
 /**
  * print_diagonal - Draws a diagonal line using the \ chacter
  * @n: The number of \ chacrter to be printed
+ * Return void
  */
 void print_diagonal(int n)
 {
-	int len, space;
+	int i = 0, j = 0;
 
-	if (n > 0)
+	for (i = 0; i < n; ++i)
 	{
-		for (len = 0; len < n; len++)
+		for (j = 0; j < n; ++j)
 		{
-			for (space = 0; space < len; space++)
-				putchar(' ');
-			putchar('\\');
-			if (len == (n - 1))
-				continue;
-			putchar('\n');
+			if (i == j)
+			{
+				_putchar('\\');
+				break;
+			}
+			_putchar(' ');
+		}
+		if (i != n - 1)
+		{
+			_putchar('\n');
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
 }
