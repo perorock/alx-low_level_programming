@@ -1,5 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <stdio.h>
+
+/**
+ * File: main.h
+ * Auth: P.O
+ * Desc: Header File for the prototype for all functions
+ */
 
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
