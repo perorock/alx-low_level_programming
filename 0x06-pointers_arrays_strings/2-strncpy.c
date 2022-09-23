@@ -3,6 +3,7 @@
  * _strncpy - function to copy string
  * @dest: first character
  * @src: second character
+ * @n: the integer
  *
  * Return: always 0
  */
