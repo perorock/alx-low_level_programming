@@ -8,9 +8,9 @@
 int _strlen(char *s)
 {
 	unsigned int i;
-	/*comment */
+	/*comment*/
 	i = 0;
-	while (s[i] != '\0')
+	while (s[i] != '\0') /*count character of string*/
 	{
 		i++;
 	}
@@ -43,13 +43,13 @@ char *_strdup(char *str)
 {
 	char *dst;
 	unsigned int size;
-	/*comment*/
+	/*comment */
 	if (str == 0)
 	{
 		return (NULL);
 	}
 	size = _strlen(str) + 1;
-	dst = (char *) malloc(size *sizeof(char));
+	dst = (char *) malloc(size * sizeof(char));
 	if (dst == 0)
 	{
 		return (NULL);
